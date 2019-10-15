@@ -1,0 +1,12 @@
+/*****************************************************************************
+ * rapids.h  - global "knobs"
+ *****************************************************************************/
+
+#ifndef RAPIDS_H
+#define RAPIDS_H
+
+extern  rapids_rate_control; /* dynamic change of quantization within 1..50 range */
+extern  rapids_qp_steps;     /* granularity of possible qp change */
+extern  rapids_frame_cn;     /* counter for current processed frame */
+
+#endif
